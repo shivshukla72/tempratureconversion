@@ -1,0 +1,59 @@
+
+body
+{
+   position: relative;
+   background-size: cover;
+   background-image: url(bg.jpg);
+}
+.div1
+{   
+	position: absolute;
+	margin-top: 15%;
+	background-color: linen;
+	left:20%;
+	right: 20%;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.button1
+{
+	border-radius:5px;
+	border-style: none;
+	font-size: 87%;
+	padding: 10px;
+}
+.button2
+{
+	margin: 0.5%;
+	padding: 1%;
+	padding-left: 12%;
+	padding-right: 12%;
+    font-weight: bold;
+    font-size: 100%;
+    background-color:lightcoral;
+    border-style: none;
+    border-radius: 5px;
+    margin-bottom: 1.5%;
+}
+@media screen and (max-width: 720px)
+{
+	body
+	{
+	   position: relative;
+	   background-size: cover;
+	 
+	}
+	.div1
+	{   
+		position: absolute;
+		margin-top: 15%;
+		background-color: linen;
+		left:0;
+		right: 0;
+		text-align: center;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
+   
+}
